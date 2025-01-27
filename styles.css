@@ -14,7 +14,7 @@ a {
 }
 
 .navbar-brand {
-	font-size: 2rem;
+	font-size: 3rem;
 	font-weight: bold;
 	color: #38b6ff !important;
 }
@@ -61,7 +61,13 @@ a {
 	height: 20rem;
 }
 
+.mb-banner {
+	margin-top: 10%;
+	height: 30rem;
+}
+
 .b-text {
+	font-size: 5rem;
 	font-weight: 700;
 }
 
@@ -69,7 +75,9 @@ a {
 	margin-top: 10%;
 }
 
-.f-text {
+.f-text,
+.mb-text {
+	font-size: 4rem;
 	font-weight: 700;
 }
 
@@ -81,4 +89,55 @@ a {
 
 .div-border {
 	border: 1px solid grey;
+}
+
+.f-box {
+	border: 1px solid gray;
+	border-radius: 25px;
+	width: 500px;
+	height: 110px;
+	margin-bottom: 40px;
+	margin-left: 30px;
+}
+
+.f-m-box-1,
+.f-m-box-2 {
+	display: flex;
+	justify-content: center;
+}
+
+.i-box {
+	font-size: 2rem;
+}
+
+.i-box-2 {
+	margin-top: 0.5rem;
+	font-size: 2rem;
+}
+
+.b-i-heading,
+.ft-name {
+	font-weight: 700;
+}
+
+.b-i-text {
+	font-weight: 500;
+}
+
+.foot-links {
+	width: 500px;
+}
+
+.copyright {
+	height: 5rem;
+}
+.cpwrt {
+	font-weight: 300;
+	font-size: 10px;
+	color: grey;
+	width: 500px;
+}
+
+.socs {
+	color: grey;
 }
