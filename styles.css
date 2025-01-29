@@ -13,10 +13,25 @@ a {
 	padding-right: 7%;
 }
 
+@media screen and (max-width: 500px) {
+	.header {
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
+
 .navbar-brand {
 	font-size: 3rem;
 	font-weight: bold;
 	color: #38b6ff !important;
+}
+
+@media screen and (max-width: 500px) {
+	.navbar-brand {
+		font-size: 1.5rem;
+		font-weight: 700;
+		color: #38b6ff !important;
+	}
 }
 
 /* Custom styling for the contact button */
@@ -61,6 +76,12 @@ a {
 	height: 20rem;
 }
 
+@media screen and (max-width: 500px) {
+	.header-banner {
+		margin-top: 45%;
+	}
+}
+
 .mb-banner {
 	margin-top: 10%;
 	height: 30rem;
@@ -71,6 +92,20 @@ a {
 	font-weight: 700;
 }
 
+@media screen and (max-width: 500px) {
+	.b-text {
+		font-size: 1.75rem;
+	}
+
+	.b-tg-line,
+	.more-btn,
+	.con-btn,
+	.nav-con-btn,
+	.nav-menu-name {
+		font-size: 0.75rem;
+	}
+}
+
 .feature-container {
 	margin-top: 10%;
 }
@@ -79,6 +114,12 @@ a {
 .mb-text {
 	font-size: 4rem;
 	font-weight: 700;
+}
+
+@media screen and (max-width: 500px) {
+	.f-text {
+		font-size: 1.75rem;
+	}
 }
 
 .b-btns {
@@ -124,6 +165,53 @@ a {
 	font-weight: 500;
 }
 
+@media screen and (max-width: 500px) {
+	.f-box {
+		border: 1px solid gray;
+		border-radius: 12.5px;
+		width: 325px;
+		height: 75px;
+	}
+
+	.f-one-box {
+		margin-left: -40px;
+		margin-bottom: -15px;
+	}
+
+	.f-multi-box {
+		margin-left: -30px;
+	}
+
+	.f-m-box-1 {
+		margin-bottom: -15px;
+	}
+
+	.i-box,
+	.i-box-2 {
+		font-size: 1rem;
+	}
+
+	.i-box-2 {
+		margin-top: 0rem;
+	}
+
+	.b-i-heading,
+	.b-i-text {
+		font-size: 0.75rem;
+	}
+
+	.mb-banner {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-left: 50px;
+		margin-top: -70px;
+	}
+	.mb-text {
+		font-size: 1.75rem;
+	}
+}
+
 .foot-links {
 	width: 500px;
 }
@@ -140,4 +228,27 @@ a {
 
 .socs {
 	color: grey;
+}
+
+@media screen and (max-width: 500px) {
+	.ft-name {
+		font-size: 1rem;
+	}
+
+	.ft-home,
+	.ft-about,
+	.ft-services,
+	.ft-contact,
+	.cpwrt,
+	.socs {
+		font-size: 0.5rem;
+	}
+
+	.cpwrt {
+		width: 80%;
+	}
+
+	.socials {
+		width: 40px;
+	}
 }
