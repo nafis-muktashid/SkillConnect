@@ -85,7 +85,8 @@ a {
 	font-size: 1.25rem;
 }
 
-.abt-txt-name {
+.abt-txt-name,
+.abt-txt-name-2 {
 	font-size: 2rem;
 	color: #38b6ff;
 }
@@ -118,8 +119,31 @@ a {
 	.abt-info-text {
 		font-size: 0.75rem;
 	}
+
+	.abt-info-text-caro {
+		font-size: 0.4rem;
+	}
 	.abt-txt-name {
 		font-size: 1rem;
+	}
+
+	.abt-txt-name-2 {
+		font-size: 0.65rem;
+		color: #38b6ff;
+	}
+
+	.pre-seed,
+	.AGM {
+		width: 300px;
+		margin-top: 25%;
+		margin-left: 10%;
+		gap: 20px !important;
+	}
+
+	.carousel-item img {
+		width: 250px !important;
+		height: 200px;
+		border-radius: 10px;
 	}
 }
 
