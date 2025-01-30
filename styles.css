@@ -317,3 +317,18 @@ a {
 		width: 40px;
 	}
 }
+
+.services-container,
+.contact-container {
+	height: 600px;
+}
+.contact-container {
+	margin-bottom: -300px;
+}
+
+.sr-txt,
+.fua,
+.email {
+	font-weight: 700;
+	font-size: 1.5rem;
+}
