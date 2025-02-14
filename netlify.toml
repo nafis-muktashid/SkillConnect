@@ -2,3 +2,18 @@
 from = "/*"
 to = "/index.html"
 status = 200
+
+[[redirects]]
+  from = "/about"
+  to = "/pages/about.html"
+  status = 200
+
+[[redirects]]
+  from = "/contact"
+  to = "/pages/contact.html"
+  status = 200
+
+[[redirects]]
+  from = "/services"
+  to = "/pages/services.html"
+  status = 200
